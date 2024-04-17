@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+}
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+}
+
+.header a{
+    text-decoration: none;
+    color: antiquewhite;
+    /* Alterar cor das opções do menu e tirar os pontos de lista */
+}
+
+.header{
+    background: #a52a2a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer{
+    background: #a52a2a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: antiquewhite;
+}
+
+.menu{
+    display:flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 10px;
+}
+/* CSS Flexbox 1 - Inicio */
+
+.flex{
+display: flex;
+flex-wrap: wrap;
+max-width: 800px;
+margin: 0 auto;
+}
+
+.flex > div{
+flex: 1 1 200px;
+margin: 10px;
+}
+
+/* CSS Flexbox 1 - Fim */
+
+body{
+    background-color: bisque;
+}
+
+h1 {
+    color: #a52a2a;
+}
+p{
+    color: brown;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    width: 500px;
+    height: 300px;
+}
